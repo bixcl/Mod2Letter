@@ -7,13 +7,14 @@ first: open the python file and change the number inside the variables **st** to
 st = '128 322 353 235 336 73 198 332 202 285 57 87 262 221 218 405 335 101 256 227 112 140'  
 ```
 second: you need to change the value of **mod** variable to the value given to you <br>
-```bash
+```python
 mod = 37
 ```
 third: run the python program <br>
-
+```bash
+python3 mod2latter.py
+```
 note: if they tell that numbers start from 1 then meke the **for loop** like this:
-
 ```python
 for i in range(1,len(lst)):
 ```
